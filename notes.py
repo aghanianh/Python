@@ -17,7 +17,7 @@ def list_nodes():
         print(f"Note-id: {note['id']}, Note-Content: {note['content']}")
 
 def retrive_node(uniq):
-    for note in nodes:
+    for note in notes:
         if note['id'] == uniq:
              print(f"Note-id: {note['id']}, Note-Content: {note['content']}")
              return
